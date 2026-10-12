@@ -21,8 +21,8 @@
     "razorpay": "^2.9.6",
     "pg": "^8.16.3",
     "dotenv": "^17.2.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
   }
-}
-"devDependencies": {
-  "typescript": "^5.8.3"
 }
