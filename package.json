@@ -1,0 +1,25 @@
+{
+  "name": "sevaone-razorpay",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SevaOne web app and server-side Razorpay integration starter",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "cap:init": "cap init SevaOne com.sevaone.app --web-dir=public",
+    "cap:add:android": "cap add android",
+    "cap:sync": "cap sync android",
+    "build:android": "npm install && npx cap add android && npx cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3",
+    "@capacitor/cli": "^7.4.3",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "express-rate-limit": "^8.1.0",
+    "razorpay": "^2.9.6",
+    "pg": "^8.16.3",
+    "dotenv": "^17.2.2"
+  }
+}

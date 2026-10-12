@@ -1,0 +1,13 @@
+SevaOne launch checklist
+[ ] Razorpay account KYC approved
+[ ] Test keys only in server environment during testing
+[ ] PostgreSQL deployed and backups enabled
+[ ] HTTPS domain active
+[ ] RAZORPAY_WEBHOOK_SECRET configured and webhook signature verified
+[ ] All payment success/failure/cancel/retry/duplicate cases tested
+[ ] Service catalog prices in server/index.js match approved prices
+[ ] Secure customer login + server-side sessions added (current login is demo/localStorage)
+[ ] Admin APIs protected by server-side roles (current admin UI is demo/localStorage)
+[ ] Privacy/refund/support policy and customer support process ready
+[ ] Android APK signed with release keystore and tested on physical devices
+[ ] Never put RAZORPAY_KEY_SECRET in website JS, APK, or source control
